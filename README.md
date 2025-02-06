@@ -9,3 +9,7 @@
 
 ### Traefik Configuration
 1. In `traefik/traefik.yml`, specify an email address (any valid email address will work).
+
+## docker compose up
+This project includes two services: `nginx` and `traefik`.  
+Run `docker-compose up -d` in each directory to start them.

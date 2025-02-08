@@ -16,4 +16,3 @@ services:
 networks:
   default:
     name: apie_default
-    external: true

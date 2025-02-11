@@ -13,11 +13,11 @@ This project includes two services: `nginx` and `traefik`.
 To start them, run the following command in each respective directory:
 
 ```sh
-cd nginx && docker-compose up -d
+cd nginx && docker compose up -d
 ```
 
 ```sh
-cd traefik && docker-compose up -d
+cd traefik && docker compose up -d
 ```
 
 ## Updating the Website
@@ -35,7 +35,7 @@ To update the website, add a new entry to `nginx/html/posts.json`. For example:
 Then, restart the Nginx service:
 
 ```sh
-cd nginx && docker-compose up -d
+cd nginx && docker compose up -d
 ```
 
 This will apply the changes and update the website accordingly.

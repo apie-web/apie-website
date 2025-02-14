@@ -9,15 +9,15 @@
 1. In `traefik/traefik.yml`, specify an email address (any valid email address will work).
 
 ## Starting the Services
-This project includes two services: `nginx` and `traefik`.
+This project includes two services: `traefik` and `nginx`. (traefik first)
 To start them, run the following command in each respective directory:
 
 ```sh
-cd nginx && docker compose up -d
+cd traefik && docker compose up -d
 ```
 
 ```sh
-cd traefik && docker compose up -d
+cd nginx && docker compose up -d
 ```
 
 ## Updating the Website

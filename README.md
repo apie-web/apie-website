@@ -8,6 +8,11 @@
 ## Traefik Configuration
 1. In `traefik/traefik.yml`, specify an email address (any valid email address will work).
 
+## Create Docker Network
+```sh
+docker network create apie_default
+```
+
 ## Starting the Services
 This project includes two services: `traefik` and `nginx`. (traefik first)
 To start them, run the following command in each respective directory:

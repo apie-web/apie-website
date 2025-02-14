@@ -14,7 +14,7 @@ docker network create apie_default
 ```
 
 ## Starting the Services
-This project includes two services: `traefik` and `nginx`. (traefik first)
+This project includes two services: `traefik` and `nginx`(traefik first).
 To start them, run the following command in each respective directory:
 
 ```sh
